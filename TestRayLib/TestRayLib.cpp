@@ -47,10 +47,10 @@ int main(void)
     InitAudioDevice();
 
     // Load explosion sound
-    Sound fxBoom = LoadSound("assets/boom.wav");
+    Sound fxBoom = LoadSound("assets/aaaa.wav");
 
     // Load explosion texture
-    Texture2D explosion = LoadTexture("assets/explosion.png");
+    Texture2D explosion = LoadTexture("assets/aaaa.png");
 
     // Init variables for animation
     float frameWidth = (float)(explosion.width / NUM_FRAMES_PER_LINE);   // Sprite one frame rectangle width
